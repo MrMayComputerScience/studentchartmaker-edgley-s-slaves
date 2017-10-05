@@ -83,12 +83,19 @@
       <file leaf-file-name="HelloDragAndDrop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="125" column="17" lean-forward="true" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+            <state relative-caret-position="185">
+              <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5342#5343#0" expanded="true" />
-                <element signature="e#5382#5383#0" expanded="true" />
+                <element signature="method#handle#0;class#1143:2703" expanded="false" />
+                <element signature="method#handle#0;class#2739:3342" expanded="false" />
+                <element signature="method#handle#0;class#3383:4943" expanded="false" />
+                <element signature="method#handle#0;class#5625:6228" expanded="false" />
+                <element signature="method#handle#0;class#6272:6798" expanded="false" />
+                <element signature="method#handle#0;class#6841:7092" expanded="false" />
+                <element signature="method#handle#0;class#7136:8696" expanded="false" />
+                <element signature="e#8929#8930#0" expanded="true" />
+                <element signature="e#8969#8970#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,6 +128,8 @@
       <find>DRAGBOARD</find>
       <find>System.out.println</find>
       <find>db</find>
+      <find>source</find>
+      <find>event</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -417,7 +426,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -451,7 +460,17 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -527,12 +546,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="125" column="17" lean-forward="true" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+        <state relative-caret-position="185">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5342#5343#0" expanded="true" />
-            <element signature="e#5382#5383#0" expanded="true" />
+            <element signature="method#handle#0;class#1143:2703" expanded="false" />
+            <element signature="method#handle#0;class#2739:3342" expanded="false" />
+            <element signature="method#handle#0;class#3383:4943" expanded="false" />
+            <element signature="method#handle#0;class#5625:6228" expanded="false" />
+            <element signature="method#handle#0;class#6272:6798" expanded="false" />
+            <element signature="method#handle#0;class#6841:7092" expanded="false" />
+            <element signature="method#handle#0;class#7136:8696" expanded="false" />
+            <element signature="e#8929#8930#0" expanded="true" />
+            <element signature="e#8969#8970#0" expanded="true" />
           </folding>
         </state>
       </provider>
