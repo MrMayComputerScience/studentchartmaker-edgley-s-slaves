@@ -265,7 +265,7 @@ public class HelloDragAndDrop extends Application {
         stage.setScene(scene);
         stage.show();
     }
-
+/*
     public void packager(File header, File nameFiles, File Dates) throws IOException {
         //header
         FileInputStream hfis;
@@ -323,6 +323,7 @@ String headerName = hbuilder.toString();
 
 
     }
+    */
 
     public static void main(String[] args) {
         Application.launch(args);
