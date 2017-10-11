@@ -9,6 +9,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+import javax.print.DocFlavor;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -16,6 +17,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Demonstrates a drag-and-drop feature.
@@ -265,24 +268,30 @@ public class HelloDragAndDrop extends Application {
         stage.setScene(scene);
         stage.show();
     }
-/*
-    public void packager(File header, File nameFiles, File Dates) throws IOException {
+
+    public void packager(File header, File nameFiles, File Dates) {
         //header
-        FileInputStream hfis;
-        hfis = new FileInputStream(header);
-
-        StringBuilder hbuilder = new StringBuilder();
-        int ch;
-        while ((ch = hfis.read()) != -1) {
-            hbuilder.append((char) ch);
+        String header = "";
+        //
+        // Create a new Scanner object which will read the data from the
+        // file passed in. To check if there are more line to read from it
+        // we check by calling the scanner.hasNextLine() method. We then
+        // read line one by one till all line is read.
+        //
+        try {
+            Scanner scanner = new Scanner(header);
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                header = header + line;
+            }
         }
+        catch(Exception r){
 
-        hfis.close();
-String headerName = hbuilder.toString();
-        System.out.println(hbuilder.toString());
+        }
         //header
 
         //nameFiles
+        List<String> names = new ArrayList<>();
         try {
             //
             // Create a new Scanner object which will read the data from the
@@ -290,32 +299,44 @@ String headerName = hbuilder.toString();
             // we check by calling the scanner.hasNextLine() method. We then
             // read line one by one till all line is read.
             //
-            Scanner scanner = new Scanner(nameFiles);
-            while (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
+            Scanner scanner1 = new Scanner(nameFiles);
+            while (scanner1.hasNextLine()) {
+                String line = scanner1.nextLine();
                 System.out.println(line);
+                final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+\\s\\D/g");
+                final Matcher matcher = pattern.matcher(line);
+                matcher.find();
+                System.out.println(matcher.group(1)); // Prints String I want to extract
+                //String patternString = "\\w+[,]\\s\\w+\\s\\D/g";
+
+                names.add(line);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
 
-    }
-}
+
+
         //nameFiles
 
         //date
-        FileInputStream dfis;
-        dfis = new FileInputStream(Dates);
-
-        StringBuilder dbuilder = new StringBuilder();
-        int dch;
-        while ((dch = dfis.read()) != -1) {
-            dbuilder.append((char) dch);
+        List<String> dates = new ArrayList<>();
+        try {
+            //
+            // Create a new Scanner object which will read the data from the
+            // file passed in. To check if there are more line to read from it
+            // we check by calling the scanner.hasNextLine() method. We then
+            // read line one by one till all line is read.
+            //
+            Scanner scanner2 = new Scanner(nameFiles);
+            while (scanner2.hasNextLine()) {
+                String line = scanner2.nextLine();
+                System.out.println(line);
+                dates.add(line);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
         }
-
-        dfis.close();
-
-        System.out.println(dbuilder.toString());
         //date
 //Tableviewer(headerName, )
 
@@ -323,7 +344,7 @@ String headerName = hbuilder.toString();
 
 
     }
-    */
+
 
     public static void main(String[] args) {
         Application.launch(args);

@@ -83,8 +83,8 @@
       <file leaf-file-name="HelloDragAndDrop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
+            <state relative-caret-position="194">
+              <caret line="306" column="60" lean-forward="false" selection-start-line="306" selection-start-column="60" selection-end-line="306" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -458,7 +458,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java</url>
-          <line>169</line>
+          <line>172</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -611,8 +611,8 @@
     <entry file="file://$PROJECT_DIR$/src/sample/DragAndDropExample.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
+        <state relative-caret-position="194">
+          <caret line="306" column="60" lean-forward="false" selection-start-line="306" selection-start-column="60" selection-end-line="306" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
