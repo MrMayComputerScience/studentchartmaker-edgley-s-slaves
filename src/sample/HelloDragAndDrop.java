@@ -42,12 +42,12 @@ public class HelloDragAndDrop extends Application {
         dates.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data dropped */
-                System.out.println("onDragDropped");
+                //System.out.println("onDragDropped");
                 /* if there is a string data on dragboard, read it and use it */
                 Dragboard db = event.getDragboard();
                 if (db.hasFiles()) {
 
-                    System.out.println("hasfiles");
+                    //System.out.println("hasfiles");
                 }
                 try {
                     List<File> phil = db.getFiles();
@@ -88,7 +88,7 @@ public class HelloDragAndDrop extends Application {
         dates.setOnDragOver(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data is dragged over the target */
-                System.out.println("onDragOver");
+               // System.out.println("onDragOver");
 
                 /* accept it only if it is  not dragged from the same node
                  * and if it has a string data */
@@ -105,7 +105,7 @@ public class HelloDragAndDrop extends Application {
         header.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data dropped */
-                System.out.println("onDragDropped");
+                //System.out.println("onDragDropped");
                 /* if there is a string data on dragboard, read it and use it */
                 Dragboard db = event.getDragboard();
                 if (db.hasFiles()) {
@@ -151,7 +151,7 @@ public class HelloDragAndDrop extends Application {
         header.setOnDragOver(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data is dragged over the target */
-                System.out.println("onDragOver");
+               // System.out.println("onDragOver");
 
                 /* accept it only if it is  not dragged from the same node
                  * and if it has a string data */
@@ -168,7 +168,7 @@ public class HelloDragAndDrop extends Application {
         name_files.setOnDragOver(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data is dragged over the target */
-                System.out.println("onDragOver");
+                //System.out.println("onDragOver");
 
                 /* accept it only if it is  not dragged from the same node
                  * and if it has a string data */
@@ -207,7 +207,7 @@ public class HelloDragAndDrop extends Application {
         name_files.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data dropped */
-                System.out.println("onDragDropped");
+                //System.out.println("onDragDropped");
                 /* if there is a string data on dragboard, read it and use it */
                 Dragboard db = event.getDragboard();
                 if (db.hasFiles()) {
