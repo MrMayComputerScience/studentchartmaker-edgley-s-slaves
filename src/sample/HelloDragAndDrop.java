@@ -13,12 +13,16 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Demonstrates a drag-and-drop feature.
  */
 public class HelloDragAndDrop extends Application {
+    public List<File> headerList = new ArrayList<File>();
+    public List<File> nameFilesList = new ArrayList<File>();
+    public List<File> datesList = new ArrayList<File>();
 
     @Override public void start(Stage stage) {
         stage.setTitle("Hello Drag And Drop");
@@ -53,7 +57,7 @@ public class HelloDragAndDrop extends Application {
                     List<File> phil = db.getFiles();
                     FileInputStream fis;
                     fis = new FileInputStream(phil.get(0));
-
+                    datesList= phil;
                     StringBuilder builder = new StringBuilder();
                     int ch;
                     while ((ch = fis.read()) != -1) {
@@ -116,7 +120,7 @@ public class HelloDragAndDrop extends Application {
                     List<File> phil = db.getFiles();
                     FileInputStream fis;
                     fis = new FileInputStream(phil.get(0));
-
+                    headerList = phil;
                     StringBuilder builder = new StringBuilder();
                     int ch;
                     while ((ch = fis.read()) != -1) {
@@ -218,7 +222,7 @@ public class HelloDragAndDrop extends Application {
                     List<File> phil = db.getFiles();
                     FileInputStream fis;
                     fis = new FileInputStream(phil.get(0));
-
+                    nameFilesList = phil;
                     StringBuilder builder = new StringBuilder();
                     int ch;
                     while ((ch = fis.read()) != -1) {
