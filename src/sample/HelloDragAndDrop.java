@@ -14,6 +14,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Demonstrates a drag-and-drop feature.
@@ -115,6 +116,7 @@ public class HelloDragAndDrop extends Application {
                 try {
                     List<File> phil = db.getFiles();
                     FileInputStream fis;
+                    System.out.println(phil);
                     fis = new FileInputStream(phil.get(0));
 
                     StringBuilder builder = new StringBuilder();
@@ -258,6 +260,64 @@ public class HelloDragAndDrop extends Application {
 
         stage.setScene(scene);
         stage.show();
+    }
+
+    public void packager(File header, File nameFiles, File Dates) throws IOException {
+        //header
+        FileInputStream hfis;
+        hfis = new FileInputStream(header);
+
+        StringBuilder hbuilder = new StringBuilder();
+        int ch;
+        while ((ch = hfis.read()) != -1) {
+            hbuilder.append((char) ch);
+        }
+
+        hfis.close();
+String headerName = hbuilder.toString();
+        System.out.println(hbuilder.toString());
+        //header
+
+        //nameFiles
+        try {
+            //
+            // Create a new Scanner object which will read the data from the
+            // file passed in. To check if there are more line to read from it
+            // we check by calling the scanner.hasNextLine() method. We then
+            // read line one by one till all line is read.
+            //
+            Scanner scanner = new Scanner(nameFiles);
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                System.out.println(line);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+}
+        //nameFiles
+
+        //date
+        FileInputStream dfis;
+        dfis = new FileInputStream(Dates);
+
+        StringBuilder dbuilder = new StringBuilder();
+        int dch;
+        while ((dch = dfis.read()) != -1) {
+            dbuilder.append((char) dch);
+        }
+
+        dfis.close();
+
+        System.out.println(dbuilder.toString());
+        //date
+//Tableviewer(headerName, )
+
+
+
+
     }
 
     public static void main(String[] args) {
