@@ -367,7 +367,7 @@ public class HelloDragAndDrop extends Application {
             while (scanner1.hasNextLine()) {
                 String line = scanner1.nextLine();
                 System.out.println(line);
-                final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+\\s\\D/g");
+                final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+\\s\\D");
                 final Matcher matcher = pattern.matcher(line);
                 matcher.find();
                 line = matcher.group(1); // Prints String I want to extract
