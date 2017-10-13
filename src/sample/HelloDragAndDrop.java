@@ -1,10 +1,13 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.input.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -16,10 +19,7 @@ import javax.print.DocFlavor;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import java.awt.*;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -33,6 +33,10 @@ public class HelloDragAndDrop extends Application {
     public List<File> headerList = new ArrayList<File>();
     public List<File> nameFilesList = new ArrayList<File>();
     public List<File> datesList = new ArrayList<File>();
+    public Double progressBar = 0.0;
+    public Boolean headerDrop = false;
+    public Boolean nameDrop = false;
+    public Boolean dateDrop = false;
 
     @Override public void start(Stage stage) {
         stage.setTitle("Hello Drag And Drop");
@@ -64,13 +68,25 @@ public class HelloDragAndDrop extends Application {
         hbox.getChildren().addAll(header, name_files,dates);
         VBox vbox = new VBox();
         vbox.getChildren().add(hbox);
+        ProgressBar pb = new ProgressBar(progressBar);
+        pb.setMaxWidth(Double.MAX_VALUE);
+        //pb.setProgress(.3);
+        vbox.getChildren().add(pb);
         Button button = new Button("Start!");
         button.setMaxWidth(Double.MAX_VALUE);
+        button.setDisable(true);
         vbox.getChildren().add(button);
 
         dates.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
+                if(dateDrop==false){
+                    progressBar = progressBar + .3;
+                }
+                pb.setProgress(progressBar);
                 /* data dropped */
+                dateDrop = true;
+                if(progressBar==1)
+                    button.setDisable(false);
                 //System.out.println("onDragDropped");
                 /* if there is a string data on dragboard, read it and use it */
                 Dragboard db = event.getDragboard();
@@ -134,6 +150,14 @@ public class HelloDragAndDrop extends Application {
         header.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data dropped */
+                if(headerDrop==false){
+                    progressBar = progressBar + .2;
+                }
+                pb.setProgress(progressBar);
+                /* data dropped */
+                headerDrop = true;
+                if(progressBar==1)
+                    button.setDisable(false);
                 //System.out.println("onDragDropped");
                 /* if there is a string data on dragboard, read it and use it */
                 Dragboard db = event.getDragboard();
@@ -237,6 +261,14 @@ public class HelloDragAndDrop extends Application {
         name_files.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* data dropped */
+                if(nameDrop==false){
+                    progressBar = progressBar + .5;
+                }
+                pb.setProgress(progressBar);
+                /* data dropped */
+                nameDrop = true;
+                if(progressBar==1)
+                    button.setDisable(false);
                 //System.out.println("onDragDropped");
                 /* if there is a string data on dragboard, read it and use it */
                 Dragboard db = event.getDragboard();
@@ -291,6 +323,19 @@ public class HelloDragAndDrop extends Application {
         stage.show();
     }
 
+    button.setOnAction(new EventHandler<ActionEvent>() {
+
+        @Override
+        public void handle(ActionEvent f) {
+
+            try {
+               System.out.println("tets");
+            } catch (IOException f) {
+                f.printStackTrace();
+
+            }
+        }
+    });
     public void packager(File header, File nameFiles, File Dates) {
         //header
         String headerName = "";
