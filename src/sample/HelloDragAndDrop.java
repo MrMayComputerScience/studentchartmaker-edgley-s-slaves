@@ -311,7 +311,16 @@ public class HelloDragAndDrop extends Application {
                 //  event.consume();
             }
         });
+        button.setOnAction(new EventHandler<ActionEvent>() {
 
+            @Override
+            public void handle(ActionEvent f) {
+
+
+                    System.out.println("tets");
+
+            }
+        });
 
 
        // root.getChildren().add(header);
@@ -323,19 +332,7 @@ public class HelloDragAndDrop extends Application {
         stage.show();
     }
 
-    button.setOnAction(new EventHandler<ActionEvent>() {
 
-        @Override
-        public void handle(ActionEvent f) {
-
-            try {
-               System.out.println("tets");
-            } catch (IOException f) {
-                f.printStackTrace();
-
-            }
-        }
-    });
     public void packager(File header, File nameFiles, File Dates) {
         //header
         String headerName = "";
