@@ -316,8 +316,8 @@ public class HelloDragAndDrop extends Application {
             @Override
             public void handle(ActionEvent f) {
 
+            packager(headerList.get(0),nameFilesList.get(0),datesList.get(0));
 
-                    System.out.println("tets");
 
             }
         });
@@ -375,6 +375,8 @@ public class HelloDragAndDrop extends Application {
 
                 names.add(line);
             }
+            java.util.Collections.sort(names);
+            System.out.println(names);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
