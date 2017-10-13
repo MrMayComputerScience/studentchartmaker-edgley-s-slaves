@@ -271,7 +271,7 @@ public class HelloDragAndDrop extends Application {
 
     public void packager(File header, File nameFiles, File Dates) {
         //header
-        String header = "";
+        String headerName = "";
         //
         // Create a new Scanner object which will read the data from the
         // file passed in. To check if there are more line to read from it
@@ -282,7 +282,7 @@ public class HelloDragAndDrop extends Application {
             Scanner scanner = new Scanner(header);
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                header = header + line;
+                headerName = headerName + line;
             }
         }
         catch(Exception r){
