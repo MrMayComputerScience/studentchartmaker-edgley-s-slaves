@@ -4,12 +4,18 @@ import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.input.*;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import javax.print.DocFlavor;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import java.awt.*;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -32,20 +38,35 @@ public class HelloDragAndDrop extends Application {
         stage.setTitle("Hello Drag And Drop");
 
         Group root = new Group();
-        Scene scene = new Scene(root, 600, 200);
+        Scene scene = new Scene(root, 600, 250);
         scene.setFill(Color.web("#0042ad"));
+        HBox hbox = new HBox();
 
-        final Text header = new Text(50, 100, "Header");
-        header.setScaleX(2.0);
-        header.setScaleY(2.0);
+        Image himg = new Image("/sample/header.png");
+        ImageView header = new ImageView(himg);
 
-        final Text name_files = new Text(250, 100, "Name Files");
-        name_files.setScaleX(2.0);
-        name_files.setScaleY(2.0);
+      //  final Text header = new Text("Header");
+/*        header.setScaleX(2.0);
+        header.setScaleY(2.0);*/
 
-        final Text dates = new Text(450, 100, "Dates");
-        dates.setScaleX(2.0);
-        dates.setScaleY(2.0);
+        Image nimg = new Image("/sample/name_files.png");
+        ImageView name_files = new ImageView(nimg);
+       // final Text name_files = new Text("Name Files");
+/*        name_files.setScaleX(2.0);
+        name_files.setScaleY(2.0);*/
+
+        Image dimg = new Image("/sample/dates.png");
+        ImageView dates = new ImageView(dimg);
+ //       final Text dates = new Text("Dates");
+/*        dates.setScaleX(2.0);
+        dates.setScaleY(2.0);*/
+
+        hbox.getChildren().addAll(header, name_files,dates);
+        VBox vbox = new VBox();
+        vbox.getChildren().add(hbox);
+        Button button = new Button("Start!");
+        button.setMaxWidth(Double.MAX_VALUE);
+        vbox.getChildren().add(button);
 
         dates.setOnDragDropped(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
@@ -197,7 +218,7 @@ public class HelloDragAndDrop extends Application {
                 /* show to the user that it is an actual gesture target */
                 if (event.getGestureSource() != name_files &&
                         event.getDragboard().hasString()) {
-                    name_files.setFill(Color.GREEN);
+                  //  name_files.setFill(Color.GREEN);
                 }
 
                 event.consume();
@@ -207,7 +228,7 @@ public class HelloDragAndDrop extends Application {
         name_files.setOnDragExited(new EventHandler <DragEvent>() {
             public void handle(DragEvent event) {
                 /* mouse moved away, remove the graphical cues */
-                name_files.setFill(Color.BLACK);
+                //name_files.setFill(Color.BLACK);
 
                 event.consume();
             }
@@ -261,9 +282,10 @@ public class HelloDragAndDrop extends Application {
 
 
 
-        root.getChildren().add(header);
-        root.getChildren().add(name_files);
-        root.getChildren().add(dates);
+       // root.getChildren().add(header);
+       // root.getChildren().add(name_files);
+        //root.getChildren().add(dates);
+        root.getChildren().add(vbox);
 
         stage.setScene(scene);
         stage.show();
