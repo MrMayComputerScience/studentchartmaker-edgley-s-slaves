@@ -373,7 +373,13 @@ public class HelloDragAndDrop extends Application {
                 final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+\\s\\D");
                 final Matcher matcher = pattern.matcher(line);
                 matcher.find();
-                line = matcher.group(0); // Prints String I want to extract
+                try {
+                    line = matcher.group(0); // Prints String I want to extract
+                }
+                catch(Exception f)
+                {
+                    f.printStackTrace();
+                }
                 //String patternString = "\\w+[,]\\s\\w+\\s\\D/g";
 
                 names.add(line);
@@ -398,18 +404,35 @@ public class HelloDragAndDrop extends Application {
             // we check by calling the scanner.hasNextLine() method. We then
             // read line one by one till all line is read.
             //
+            String first = "";
             Scanner scanner2 = new Scanner(Dates);
             while (scanner2.hasNextLine()) {
                 String line = scanner2.nextLine();
+                first = line;
+                if(line.contains("#"))
+                    break;
                 System.out.println(line);
                 dates.add(line);
             }
-        } catch (FileNotFoundException e) {
+
+            if(first.contains("#")){
+                String num = first.substring(1,first.length());
+                int x = Integer.parseInt(num);
+                System.out.println(x);
+                for(int i = x; i>0; i--)
+                {
+                    dates.add("               ");
+                }
+            }
+
+
+        }
+        catch (FileNotFoundException e) {
             e.printStackTrace();
         }
         //date
 htmler(headerName,names,dates);
-        //htmler(headerName,names,dates)
+
 
 
 
@@ -616,7 +639,8 @@ htmler(headerName,names,dates);
            out.close();
 
            File htmlFile = new File(header+".html");
-           Desktop.getDesktop().browse(htmlFile.toURI());
+          Desktop.getDesktop().browse(htmlFile.toURI());
+         //  Runtime.getRuntime().exec(new String[]{"cmd", "/c","start chrome "+ "H:/\TechApps\StudentTracker\StudentChartMaker" + header + ".html"});
        }
        catch(IOException e)
        {
@@ -625,6 +649,8 @@ htmler(headerName,names,dates);
    //System.out.println(html);
 
    }
+
+
 
 
     public static void main(String[] args) {
