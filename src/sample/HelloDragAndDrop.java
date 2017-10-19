@@ -45,7 +45,7 @@ public class HelloDragAndDrop extends Application {
 
         Group root = new Group();
         Scene scene = new Scene(root, 600, 250);
-        scene.setFill(Color.web("#0042ad"));
+        scene.setFill(Color.web("#da3609"));
         HBox hbox = new HBox();
 
         Image himg = new Image("/sample/header.png");
@@ -71,6 +71,8 @@ public class HelloDragAndDrop extends Application {
         VBox vbox = new VBox();
         vbox.getChildren().add(hbox);
         ProgressBar pb = new ProgressBar(progressBar);
+       // pb.setBackground(Color.BLACK);
+      //  pb
         pb.setMaxWidth(Double.MAX_VALUE);
         //pb.setProgress(.3);
         vbox.getChildren().add(pb);
@@ -368,9 +370,10 @@ public class HelloDragAndDrop extends Application {
             //
             Scanner scanner1 = new Scanner(nameFiles);
             while (scanner1.hasNextLine()) {
+                System.out.println("here");
                 String line = scanner1.nextLine();
-                System.out.println(line);
-                final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+\\s\\D");
+                //System.out.println(line);
+                final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+");
                 final Matcher matcher = pattern.matcher(line);
                 matcher.find();
                 try {
@@ -381,12 +384,26 @@ public class HelloDragAndDrop extends Application {
                     f.printStackTrace();
                 }
                 //String patternString = "\\w+[,]\\s\\w+\\s\\D/g";
-
+                if("test, test".matches(".*[,].*"))
+                {
+                    System.out.println("matched comma");
+                }
+                System.out.println("this is line " + line);
+                if(line.matches(".*[a-z].*") && line.matches(".*[,].*")){
                 names.add(line);
+                java.util.Collections.sort(names);
+                String switchNames = names.get(names.size()-1);
+                names.remove(names.size()-1);
+                System.out.println("test" + switchNames);
+                String[] switchArray = switchNames.split(", ");
+                System.out.println(switchArray.toString());
+                System.out.println("1 " + switchArray[0]);
+                System.out.println("2  " + switchArray[1]);
+                switchNames = switchArray[1] + " " + switchArray[0];
+                names.add(switchNames);
+                }
             }
-            java.util.Collections.sort(names);
-            System.out.println("Work");
-            System.out.println(names);
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -411,14 +428,14 @@ public class HelloDragAndDrop extends Application {
                 first = line;
                 if(line.contains("#"))
                     break;
-                System.out.println(line);
+                //System.out.println(line);
                 dates.add(line);
             }
 
             if(first.contains("#")){
                 String num = first.substring(1,first.length());
                 int x = Integer.parseInt(num);
-                System.out.println(x);
+                //System.out.println(x);
                 for(int i = x; i>0; i--)
                 {
                     dates.add("               ");
@@ -590,7 +607,19 @@ htmler(headerName,names,dates);
            "td.text-right {\n" +
            "  text-align: right;\n" +
            "}\n" +
-           "\n" +
+               "@media print {\n" +
+       "body {-webkit-print-color-adjust: exact;}\n" +
+   "}\n" +
+       "@page {\n" +
+       "size:A4 landscape;\n" +
+       "margin-left: 0px;\n" +
+       "margin-right: 0px;\n" +
+       "margin-top: 0px;\n" +
+       "margin-bottom: 0px;\n" +
+       "margin: 0;\n" +
+       "-webkit-print-color-adjust: exact;\n" +
+   "}\n" +
+       "\n" +
            "\t</style>\n" +
            "\t\n" +
            "<body>\n" +
@@ -630,7 +659,7 @@ htmler(headerName,names,dates);
 
        System.out.println("test");
        try {
-           FileWriter fw = new FileWriter(header+".html", false);
+           FileWriter fw = new FileWriter(header + ".html", false);
            BufferedWriter bw = new BufferedWriter(fw);
            PrintWriter out = new PrintWriter(bw, true);
 //write data to the stream
@@ -638,9 +667,9 @@ htmler(headerName,names,dates);
 //close the stream
            out.close();
 
-           File htmlFile = new File(header+".html");
-          Desktop.getDesktop().browse(htmlFile.toURI());
-         //  Runtime.getRuntime().exec(new String[]{"cmd", "/c","start chrome "+ "H:/\TechApps\StudentTracker\StudentChartMaker" + header + ".html"});
+           File htmlFile = new File(header + ".html");
+           Desktop.getDesktop().browse(htmlFile.toURI());
+
        }
        catch(IOException e)
        {
