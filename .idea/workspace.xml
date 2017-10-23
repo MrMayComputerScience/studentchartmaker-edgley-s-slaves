@@ -61,7 +61,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="68">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,18 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloDragAndDrop.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloDragAndDrop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="261" column="8" lean-forward="false" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#611#617#0" expanded="true" />
-                <element signature="e#672#678#0" expanded="true" />
-                <element signature="e#729#735#0" expanded="true" />
-            <state relative-caret-position="382">
-              <caret line="394" column="63" lean-forward="true" selection-start-line="394" selection-start-column="63" selection-end-line="394" selection-end-column="63" />
+            <state relative-caret-position="253">
+              <caret line="362" column="46" lean-forward="true" selection-start-line="362" selection-start-column="46" selection-end-line="362" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#940#946#0" expanded="true" />
@@ -105,25 +98,20 @@
                 <element signature="method#handle#0;class#8532:9060" expanded="false" />
                 <element signature="method#handle#0;class#9103:9356" expanded="false" />
                 <element signature="method#handle#0;class#9400:11304" expanded="false" />
+                <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="progressbartest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-=======
       <file leaf-file-name="progressbartest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
+            <state relative-caret-position="221">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -161,7 +149,6 @@
       <find>Sys</find>
       <find>on</find>
       <find>onDra</find>
-      <find>root</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -183,17 +170,12 @@
         <option value="$PROJECT_DIR$/src/sample/DragAndDropExample.java" />
         <option value="$PROJECT_DIR$/src/sample/progressbartest.java" />
         <option value="$PROJECT_DIR$/src/sample/HelloDragAndDrop.java" />
-        <option value="$PROJECT_DIR$/src/sample/progressbartest.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds">
-=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -217,38 +199,19 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="studentchartmaker-edgley-s-slaves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentchartmaker-edgley-s-slaves" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentChartMaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentChartMaker" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-            <path>
-              <item name="studentchartmaker-edgley-s-slaves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentchartmaker-edgley-s-slaves" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentchartmaker-edgley-s-slaves" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentchartmaker-edgley-s-slaves" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-=======
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-<<<<<<< HEAD
-      <pane id="AndroidView" />
-=======
-      <pane id="Scratches" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -281,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.progressbartest">
+  <component name="RunManager" selected="Application.HelloDragAndDrop">
     <configuration name="DragAndDropExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DragAndDropExample" />
@@ -452,13 +415,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-<<<<<<< HEAD
-        <item index="0" class="java.lang.String" itemvalue="Application.progressbartest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HelloDragAndDrop" />
-=======
         <item index="0" class="java.lang.String" itemvalue="Application.HelloDragAndDrop" />
         <item index="1" class="java.lang.String" itemvalue="Application.progressbartest" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
         <item index="2" class="java.lang.String" itemvalue="Application.DragAndDropExample" />
       </list>
     </recent_temporary>
@@ -486,7 +444,7 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -497,12 +455,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33512932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42161018" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -541,6 +499,130 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="353" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="690" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#940#946#0" expanded="true" />
+            <element signature="e#1001#1007#0" expanded="true" />
+            <element signature="e#1058#1064#0" expanded="true" />
+            <element signature="method#handle#0;class#2700:4566" expanded="false" />
+            <element signature="method#handle#0;class#4602:5207" expanded="false" />
+            <element signature="method#handle#0;class#5248:7199" expanded="false" />
+            <element signature="method#handle#0;class#7236:7841" expanded="false" />
+            <element signature="method#handle#0;class#7883:8488" expanded="false" />
+            <element signature="method#handle#0;class#8532:9060" expanded="false" />
+            <element signature="method#handle#0;class#9103:9356" expanded="false" />
+            <element signature="method#handle#0;class#9400:11304" expanded="false" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6698">
+          <caret line="394" column="63" lean-forward="true" selection-start-line="394" selection-start-column="63" selection-end-line="394" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#940#946#0" expanded="true" />
+            <element signature="e#1001#1007#0" expanded="true" />
+            <element signature="e#1058#1064#0" expanded="true" />
+            <element signature="method#handle#0;class#2700:4566" expanded="false" />
+            <element signature="method#handle#0;class#4602:5207" expanded="false" />
+            <element signature="method#handle#0;class#5248:7199" expanded="false" />
+            <element signature="method#handle#0;class#7236:7841" expanded="false" />
+            <element signature="method#handle#0;class#7883:8488" expanded="false" />
+            <element signature="method#handle#0;class#8532:9060" expanded="false" />
+            <element signature="method#handle#0;class#9103:9356" expanded="false" />
+            <element signature="method#handle#0;class#9400:11304" expanded="false" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -565,6 +647,7 @@
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -597,48 +680,7 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3655">
-          <caret line="215" column="17" lean-forward="false" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#617#0" expanded="true" />
-            <element signature="e#672#678#0" expanded="true" />
-            <element signature="e#729#735#0" expanded="true" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -667,6 +709,7 @@
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -688,11 +731,6 @@
           <caret line="376" column="36" lean-forward="false" selection-start-line="376" selection-start-column="36" selection-end-line="376" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
-            <element signature="e#611#617#0" expanded="true" />
-            <element signature="e#672#678#0" expanded="true" />
-            <element signature="e#729#735#0" expanded="true" />
-=======
             <element signature="e#940#946#0" expanded="true" />
             <element signature="e#1001#1007#0" expanded="true" />
             <element signature="e#1058#1064#0" expanded="true" />
@@ -704,7 +742,7 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,6 +771,7 @@
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -765,6 +804,7 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,11 +844,6 @@
           <caret line="308" column="39" lean-forward="true" selection-start-line="308" selection-start-column="39" selection-end-line="308" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
-            <element signature="e#611#617#0" expanded="true" />
-            <element signature="e#672#678#0" expanded="true" />
-            <element signature="e#729#735#0" expanded="true" />
-=======
             <element signature="e#940#946#0" expanded="true" />
             <element signature="e#1001#1007#0" expanded="true" />
             <element signature="e#1058#1064#0" expanded="true" />
@@ -820,7 +855,7 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -871,6 +906,7 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -921,13 +957,14 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="68">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -976,10 +1013,11 @@
     <entry file="file://$PROJECT_DIR$/src/sample/DragAndDropExample.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1008,26 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="180">
-          <caret line="261" column="8" lean-forward="false" selection-start-line="261" selection-start-column="8" selection-end-line="261" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#617#0" expanded="true" />
-            <element signature="e#672#678#0" expanded="true" />
-            <element signature="e#729#735#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-=======
-        <state relative-caret-position="382">
-          <caret line="394" column="63" lean-forward="true" selection-start-line="394" selection-start-column="63" selection-end-line="394" selection-end-column="63" />
->>>>>>> e2ca19fd832061608a7490756453fc01b6ebd4b7
+        <state relative-caret-position="253">
+          <caret line="362" column="46" lean-forward="true" selection-start-line="362" selection-start-column="46" selection-end-line="362" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#940#946#0" expanded="true" />
@@ -1041,6 +1061,7 @@
             <element signature="method#handle#0;class#8532:9060" expanded="false" />
             <element signature="method#handle#0;class#9103:9356" expanded="false" />
             <element signature="method#handle#0;class#9400:11304" expanded="false" />
+            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
           </folding>
         </state>
       </provider>
