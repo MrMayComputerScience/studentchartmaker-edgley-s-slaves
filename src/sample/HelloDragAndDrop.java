@@ -44,7 +44,7 @@ public class HelloDragAndDrop extends Application {
         stage.setTitle("Hello Drag And Drop");
 
         Group root = new Group();
-        Scene scene = new Scene(root, 600, 250);
+        Scene scene = new Scene(root, 600, 245);
         scene.setFill(Color.web("#da3609"));
         HBox hbox = new HBox();
 
@@ -475,7 +475,7 @@ htmler(headerName,names,dates);
            "\t@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);\n" +
            "\n" +
            "body {\n" +
-           "  background-color: #3e94ec;\n" +
+           "  background-color: #ed5140;\n" +
            "  font-family: ‘Roboto’, helvetica, arial, sans-serif;\n" +
            "  font-size: 16px;\n" +
            "  font-weight: 400;\n" +
