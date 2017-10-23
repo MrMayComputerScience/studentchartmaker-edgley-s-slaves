@@ -507,7 +507,7 @@ htmler(headerName,names,dates);
            "  background: white;\n" +
            "  border-radius:3px;\n" +
            "  border-collapse: collapse;\n" +
-           "  height: 320px;\n" +
+           "  max-height: 100px;\n" +
            "  margin: auto;\n" +
            "  max-width: 600px;\n" +
            "  padding:5px;\n" +
@@ -523,7 +523,7 @@ htmler(headerName,names,dates);
            "  border-right: 1px solid #343a45;\n" +
            "  font-size:23px;\n" +
            "  font-weight: 100;\n" +
-           "  padding:24px;\n" +
+           "  padding:15px;\n" +
            "  text-align:left;\n" +
            "  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);\n" +
            "  vertical-align:middle;\n" +
@@ -579,7 +579,7 @@ htmler(headerName,names,dates);
            " \n" +
            "td {\n" +
            "  background:#FFFFFF;\n" +
-           "  padding:20px;\n" +
+           "  padding:5px;\n" +
            "  text-align:left;\n" +
            "  vertical-align:middle;\n" +
            "  font-weight:300;\n" +
@@ -624,7 +624,7 @@ htmler(headerName,names,dates);
        "margin-right: 0px;\n" +
        "margin-top: 0px;\n" +
        "margin-bottom: 0px;\n" +
-       "margin: 0;\n" +
+       "margin: 10;\n" +
        "-webkit-print-color-adjust: exact;\n" +
    "}\n" +
        "\n" +
