@@ -2,12 +2,14 @@ import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.ProgressIndicator;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.scene.control.ProgressBar;
 
 public class progressbartest  extends Application {
 
@@ -20,14 +22,27 @@ public class progressbartest  extends Application {
     @Override
     public void start(Stage stage) {
         Group root = new Group();
+
+        HBox hb = new HBox(1);
+
+
         Scene scene = new Scene(root, 300, 150);
-        scene.getStylesheets().add("progresssample/Style.css");
+        //scene.getStylesheets().add("progresssample/Style.css");
+
         stage.setScene(scene);
         stage.setTitle("Progress Controls");
 
-        ProgressBar testpb = new ProgressBar(0.6);
-        ProgressIndicator testpi = new ProgressIndicator(0.6);
+        ProgressBar pb = new ProgressBar();
+        pb.setProgress(.1);
 
+        ProgressIndicator pi = new ProgressIndicator();
+        pi.setProgress(.1);
+
+        hb.getChildren().addAll(pb, pi);
+
+
+
+        /*
         for (int i = 0; i < values.length; i++) {
             final Label label = new Label();
             label.setText("progress");
@@ -39,17 +54,18 @@ public class progressbartest  extends Application {
 
             final ProgressIndicator pin = new ProgressIndicator(.7);
             pin.setProgress(.5);
-            final HBox hb = new HBox(.5);
+
             System.out.println("teststst:  "+hbs[i]);
 
             hb.setSpacing(5);
             hb.setAlignment(Pos.CENTER);
-            hb.getChildren().addAll(label, pb, pin);
+
         }
+*/
 
         final VBox vb = new VBox();
         vb.setSpacing(5);
-        vb.getChildren().addAll(hbs);
+        //vb.add(p2);
         scene.setRoot(vb);
         stage.show();
     }
