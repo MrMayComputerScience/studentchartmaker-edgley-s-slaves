@@ -392,16 +392,19 @@ public class HelloDragAndDrop extends Application {
                 if(line.matches(".*[a-z].*") && line.matches(".*[,].*")){
                 names.add(line);
                 java.util.Collections.sort(names);
-                String switchNames = names.get(names.size()-1);
-                names.remove(names.size()-1);
+
+                }
+
+            }
+            for(int i = 0; i < names.size(); i++){
+                String switchNames = names.get(i);
                 System.out.println("test" + switchNames);
                 String[] switchArray = switchNames.split(", ");
                 System.out.println(switchArray.toString());
                 System.out.println("1 " + switchArray[0]);
                 System.out.println("2  " + switchArray[1]);
                 switchNames = switchArray[1] + " " + switchArray[0];
-                names.add(switchNames);
-                }
+                names.set(i,switchNames);
             }
 
         } catch (FileNotFoundException e) {
