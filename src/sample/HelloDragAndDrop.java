@@ -41,7 +41,7 @@ public class HelloDragAndDrop extends Application {
     public Boolean dateDrop = false;
 
     @Override public void start(Stage stage) {
-        stage.setTitle("Hello Drag And Drop");
+        stage.setTitle("Drag And Drop Attendance");
 
         Group root = new Group();
         Scene scene = new Scene(root, 600, 245);
@@ -446,7 +446,7 @@ public class HelloDragAndDrop extends Application {
                 //System.out.println(x);
                 for(int i = x; i>0; i--)
                 {
-                    dates.add("               ");
+                    dates.add("                              ");
                 }
             }
 
@@ -510,6 +510,7 @@ htmler(headerName,names,dates);
            "  max-height: 100px;\n" +
            "  margin: auto;\n" +
            "  max-width: 600px;\n" +
+           "  min-width: 450px;\n" +
            "  padding:5px;\n" +
            "  width: 100%;\n" +
            "  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);\n" +
@@ -651,9 +652,9 @@ htmler(headerName,names,dates);
 
        for(int j= 0; j<names.size(); j++) {
            namesAdd += "<tr>\n" +
-                   "<td class=\"text-left\">" + names.get(j) + "</td>\n";
+                   "<td class=\"text-center\">" + names.get(j) + "</td>\n";
                     for(int r=dates.size()-1; r>0; r--){
-                        namesAdd += "<td class='text-left'> </td>\n";
+                        namesAdd += "<td class='text-center'> </td>\n";
                     }
                          namesAdd += "</tr>\n";
        }
