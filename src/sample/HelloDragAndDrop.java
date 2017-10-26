@@ -641,6 +641,9 @@ htmler(headerName,names,dates);
            "\t</style>\n" +
            "\t\n" +
            "<body>\n" +
+               "<script type='text/javascript'>\n"+
+               "window.onload = function() { window.print(); }\n"+
+               "</script>\n"+
            "<div class=‘table-title’>\n" +
            "<h3>";
    html = html + header;
