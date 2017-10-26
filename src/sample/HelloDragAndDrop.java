@@ -111,7 +111,7 @@ public class HelloDragAndDrop extends Application {
 
                     fis.close();
 
-                    System.out.println(builder.toString());
+                    //System.out.println(builder.toString());
 
                 } catch (FileNotFoundException fnfe) {
                     fnfe.printStackTrace();
@@ -167,12 +167,12 @@ public class HelloDragAndDrop extends Application {
                 Dragboard db = event.getDragboard();
                 if (db.hasFiles()) {
 
-                    System.out.println("hasfiles");
+                    //System.out.println("hasfiles");
                 }
                 try {
                     List<File> phil = db.getFiles();
                     FileInputStream fis;
-                    System.out.println(phil);
+                    //System.out.println(phil);
                     fis = new FileInputStream(phil.get(0));
                     headerList = phil;
                     StringBuilder builder = new StringBuilder();
@@ -183,7 +183,7 @@ public class HelloDragAndDrop extends Application {
 
                     fis.close();
 
-                    System.out.println(builder.toString());
+                    //System.out.println(builder.toString());
 
                 } catch (FileNotFoundException fnfe) {
                     fnfe.printStackTrace();
@@ -278,7 +278,7 @@ public class HelloDragAndDrop extends Application {
                 Dragboard db = event.getDragboard();
                 if (db.hasFiles()) {
 
-                    System.out.println("hasfiles");
+                    //System.out.println("hasfiles");
                 }
                 try {
                     List<File> phil = db.getFiles();
@@ -293,7 +293,7 @@ public class HelloDragAndDrop extends Application {
 
                     fis.close();
 
-                    System.out.println(builder.toString());
+                    //System.out.println(builder.toString());
 
                 } catch (FileNotFoundException fnfe) {
                     fnfe.printStackTrace();
@@ -387,7 +387,7 @@ public class HelloDragAndDrop extends Application {
             //
             Scanner scanner1 = new Scanner(nameFiles);
             while (scanner1.hasNextLine()) {
-                System.out.println("here");
+                //System.out.println("here");
                 String line = scanner1.nextLine();
                 //System.out.println(line);
                 final Pattern pattern = Pattern.compile("\\w+[,]\\s\\w+");
@@ -403,9 +403,9 @@ public class HelloDragAndDrop extends Application {
                 //String patternString = "\\w+[,]\\s\\w+\\s\\D/g";
                 if("test, test".matches(".*[,].*"))
                 {
-                    System.out.println("matched comma");
+                    //System.out.println("matched comma");
                 }
-                System.out.println("this is line " + line);
+                //System.out.println("this is line " + line);
                 if(line.matches(".*[a-z].*") && line.matches(".*[,].*")){
                 names.add(line);
                 java.util.Collections.sort(names);
@@ -415,11 +415,11 @@ public class HelloDragAndDrop extends Application {
             }
             for(int i = 0; i < names.size(); i++){
                 String switchNames = names.get(i);
-                System.out.println("test" + switchNames);
+                //System.out.println("test" + switchNames);
                 String[] switchArray = switchNames.split(", ");
-                System.out.println(switchArray.toString());
-                System.out.println("1 " + switchArray[0]);
-                System.out.println("2  " + switchArray[1]);
+                //System.out.println(switchArray.toString());
+                //System.out.println("1 " + switchArray[0]);
+                //System.out.println("2  " + switchArray[1]);
                 switchNames = switchArray[1] + " " + switchArray[0];
                 names.set(i,switchNames);
             }
@@ -644,6 +644,9 @@ htmler(headerName,names,dates);
            "\t</style>\n" +
            "\t\n" +
            "<body>\n" +
+               "<script type='text/javascript'>\n"+
+               "window.onload = function() { window.print(); }\n"+
+               "</script>\n"+
            "<div class=‘table-title’>\n" +
            "<h3>";
    html = html + header;
@@ -678,7 +681,7 @@ htmler(headerName,names,dates);
                "  </body>";
 
 
-       System.out.println("test");
+       //System.out.println("test");
        try {
            FileWriter fw = new FileWriter(header + ".html", false);
            BufferedWriter bw = new BufferedWriter(fw);
