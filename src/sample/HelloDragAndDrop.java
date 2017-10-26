@@ -319,10 +319,13 @@ public class HelloDragAndDrop extends Application {
 
             @Override
             public void handle(ActionEvent f) {
-                if(headerList.size() == nameFilesList.size() && nameFilesList.size() == datesList.size())
-                for(int i = 0; i<headerList.size(); i++){
+                if(headerList.size() == nameFilesList.size() && nameFilesList.size() == datesList.size()) {
+                    button.setText("Html File Outputting");
+                    for (int i = 0; i < headerList.size(); i++) {
 
-            packager(headerList.get(i),nameFilesList.get(i),datesList.get(i)); }
+                        packager(headerList.get(i), nameFilesList.get(i), datesList.get(i));
+                    }
+                }
                 else{
                 button.setText("Files Mismatch : Try again");
 
