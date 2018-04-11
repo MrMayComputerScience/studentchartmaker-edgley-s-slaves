@@ -6,6 +6,7 @@
         <element id="module-output" name="StudentChartMaker" />
       </element>
       <element id="library" level="project" name="commons-io-2.5" />
+      <element id="library" level="project" name="commons-lang3-3.7" />
     </root>
   </artifact>
 </component>

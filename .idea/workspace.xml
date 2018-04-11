@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="StudentChartMaker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/RunnableClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sample/getAllFilesFilter.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Period 1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Project2Rows.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Technology Applications Period 6 Attendance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/commons-io-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dates.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dates2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/header.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/header2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp1datesA.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/names.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/names2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/StudentChartMaker_jar/Technology ApplicationsPeriod 6Attendance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test 2.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/StudentChartMaker_jar/StudentChartMaker.jar" afterPath="$PROJECT_DIR$/out/artifacts/StudentChartMaker_jar/StudentChartMaker.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$1.class" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$2.class" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$3.class" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$4.class" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop.class" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/HelloDragAndDrop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/Thumbs.db" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/header.png" afterPath="$PROJECT_DIR$/out/production/StudentChartMaker/sample/header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Thumbs.db" afterPath="$PROJECT_DIR$/src/sample/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/header.png" afterPath="$PROJECT_DIR$/src/sample/header.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/StudentChartMaker_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/StudentChartMaker_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_io_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudentChartMaker.iml" afterPath="$PROJECT_DIR$/StudentChartMaker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/HelloDragAndDrop.java" afterPath="$PROJECT_DIR$/src/sample/HelloDragAndDrop.java" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -83,23 +125,39 @@
       <file leaf-file-name="HelloDragAndDrop.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="362" column="46" lean-forward="true" selection-start-line="362" selection-start-column="46" selection-end-line="362" selection-end-column="46" />
+            <state relative-caret-position="289">
+              <caret line="236" column="17" lean-forward="false" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#940#946#0" expanded="true" />
-                <element signature="e#1001#1007#0" expanded="true" />
-                <element signature="e#1058#1064#0" expanded="true" />
-                <element signature="method#handle#0;class#2700:4566" expanded="false" />
-                <element signature="method#handle#0;class#4602:5207" expanded="false" />
-                <element signature="method#handle#0;class#5248:7199" expanded="false" />
-                <element signature="method#handle#0;class#7236:7841" expanded="false" />
-                <element signature="method#handle#0;class#7883:8488" expanded="false" />
-                <element signature="method#handle#0;class#8532:9060" expanded="false" />
-                <element signature="method#handle#0;class#9103:9356" expanded="false" />
-                <element signature="method#handle#0;class#9400:11304" expanded="false" />
-                <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+                <element signature="e#1142#1148#0" expanded="true" />
+                <element signature="e#1200#1206#0" expanded="true" />
+                <element signature="e#1257#1263#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunnableClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/RunnableClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#563#569#0" expanded="true" />
+                <element signature="e#621#627#0" expanded="true" />
+                <element signature="e#678#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getAllFilesFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/getAllFilesFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +165,7 @@
       <file leaf-file-name="progressbartest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="187">
               <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,12 +177,22 @@
       </file>
       <file leaf-file-name="sample.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloDragAndDrop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../StudentChartMaker/src/sample/HelloDragAndDrop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11526">
+              <caret line="704" column="0" lean-forward="false" selection-start-line="477" selection-start-column="3" selection-end-line="704" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,6 +204,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -149,6 +218,16 @@
       <find>Sys</find>
       <find>on</find>
       <find>onDra</find>
+      <find>#</find>
+      <find>builder</find>
+      <find>FOund</find>
+      <find>Searc</find>
+      <find>java</find>
+      <find>doc</find>
+      <find>Worked</find>
+      <find>Searching</find>
+      <find>system</find>
+      <find>myf</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -169,7 +248,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/sample/DragAndDropExample.java" />
         <option value="$PROJECT_DIR$/src/sample/progressbartest.java" />
+        <option value="$PROJECT_DIR$/src/sample/getAllFilesFilter.java" />
+        <option value="$PROJECT_DIR$/src/sample/StringUtils.java" />
+        <option value="$PROJECT_DIR$/work.html" />
+        <option value="$PROJECT_DIR$/Search Term space.html" />
         <option value="$PROJECT_DIR$/src/sample/HelloDragAndDrop.java" />
+        <option value="$PROJECT_DIR$/src/sample/RunnableClass.java" />
       </list>
     </option>
   </component>
@@ -198,21 +282,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="StudentChartMaker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudentChartMaker" type="462c0819:PsiDirectoryNode" />
+              <item name="Window Searcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Window Searcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Window Searcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Window Searcher" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Window Searcher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Window Searcher" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,8 +321,15 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-lang3-3.7.jar!/" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sample" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\TechApps\StudentTracker\StudentChartMaker" />
     </key>
@@ -455,13 +557,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.42338073" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.57661927" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -490,7 +592,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -499,44 +601,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -545,18 +618,9 @@
           <caret line="353" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="690" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -591,14 +655,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -607,18 +671,9 @@
           <caret line="394" column="63" lean-forward="true" selection-start-line="394" selection-start-column="63" selection-end-line="394" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,14 +708,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -669,18 +724,9 @@
           <caret line="642" column="55" lean-forward="false" selection-start-line="642" selection-start-column="55" selection-end-line="642" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -715,14 +761,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -731,18 +777,9 @@
           <caret line="376" column="36" lean-forward="false" selection-start-line="376" selection-start-column="36" selection-end-line="376" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,14 +814,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -793,18 +830,9 @@
           <caret line="375" column="32" lean-forward="true" selection-start-line="375" selection-start-column="32" selection-end-line="375" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -828,14 +856,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -844,18 +872,9 @@
           <caret line="308" column="39" lean-forward="true" selection-start-line="308" selection-start-column="39" selection-end-line="308" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -879,14 +898,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -895,18 +914,9 @@
           <caret line="215" column="17" lean-forward="true" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -930,14 +940,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
@@ -946,18 +956,9 @@
           <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,14 +974,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
@@ -992,14 +993,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
@@ -1011,17 +1012,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/DragAndDropExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/dates.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1044,27 +1034,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/StringUtils.java" />
+    <entry file="file://$PROJECT_DIR$/../StudentChartMaker/src/sample/HelloDragAndDrop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="362" column="46" lean-forward="true" selection-start-line="362" selection-start-column="46" selection-end-line="362" selection-end-column="46" />
+        <state relative-caret-position="11526">
+          <caret line="704" column="0" lean-forward="false" selection-start-line="477" selection-start-column="3" selection-end-line="704" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work.html" />
+    <entry file="file://$PROJECT_DIR$/Search Term space.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="181" column="127" lean-forward="true" selection-start-line="181" selection-start-column="127" selection-end-line="181" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/progressbartest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#940#946#0" expanded="true" />
-            <element signature="e#1001#1007#0" expanded="true" />
-            <element signature="e#1058#1064#0" expanded="true" />
-            <element signature="method#handle#0;class#2700:4566" expanded="false" />
-            <element signature="method#handle#0;class#4602:5207" expanded="false" />
-            <element signature="method#handle#0;class#5248:7199" expanded="false" />
-            <element signature="method#handle#0;class#7236:7841" expanded="false" />
-            <element signature="method#handle#0;class#7883:8488" expanded="false" />
-            <element signature="method#handle#0;class#8532:9060" expanded="false" />
-            <element signature="method#handle#0;class#9103:9356" expanded="false" />
-            <element signature="method#handle#0;class#9400:11304" expanded="false" />
-            <element signature="method#htmler#0;class#HelloDragAndDrop#0" expanded="false" />
+            <marker date="1508782781852" expanded="true" signature="1948:2005" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/getAllFilesFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/RunnableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#563#569#0" expanded="true" />
+            <element signature="e#621#627#0" expanded="true" />
+            <element signature="e#678#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/HelloDragAndDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="236" column="17" lean-forward="false" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1142#1148#0" expanded="true" />
+            <element signature="e#1200#1206#0" expanded="true" />
+            <element signature="e#1257#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>StudentChartMaker:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StudentChartMaker</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-lang3-3.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
