@@ -48,7 +48,8 @@ public class HelloDragAndDrop extends Application {
     CheckBox ParseThrough = new CheckBox("Parse Through");
     CheckBox FuzzyMatch = new CheckBox("Fuzzy Match");
     CheckBox Regex = new CheckBox("Regex");
-    Button button = new Button("Start!");
+    Button button = new Button();
+    ProgressBar pb = new ProgressBar(progressBar);
 
     //RunnableClass rc = new RunnableClass();
 
@@ -73,7 +74,8 @@ public class HelloDragAndDrop extends Application {
 
 
 
-        TextField searchTerm = new TextField("Search Term");
+        TextField searchTerm = new TextField();
+        searchTerm.setPromptText("Search Term");
         searchTerm.resize(searchTerm.getWidth(), searchTerm.getHeight());
         //CheckBox ExactMatch = new CheckBox("Exact Match");
        // ExactMatch.setSelected(true);
@@ -90,7 +92,7 @@ public class HelloDragAndDrop extends Application {
         hbox.getChildren().addAll(header, options);
         VBox vbox = new VBox();
         vbox.getChildren().add(hbox);
-        ProgressBar pb = new ProgressBar(progressBar);
+
        // pb.setBackground(Color.BLACK);
       //  pb
         pb.setMaxWidth(Double.MAX_VALUE);
@@ -99,6 +101,7 @@ public class HelloDragAndDrop extends Application {
 
         button.setMaxWidth(Double.MAX_VALUE);
         button.setDisable(true);
+        button.setText("Start!");
         vbox.getChildren().add(button);
 
 
@@ -171,11 +174,13 @@ public class HelloDragAndDrop extends Application {
             public void handle(ActionEvent f) {
                 System.out.println(scene.getWidth());
                 if(Folder.size()!=0 && (Folder.get(0).isDirectory())) {
-                    button.setText("Searching");
+                   // button.setText("Searching");
                     pb.setProgress(0.0);
                     progressBar = 0.0;
                     button.setDisable(true);
                     Finder(Folder.get(0), searchTerm.getText());
+
+                    button.setText("Start!");
 
 
 
@@ -205,7 +210,7 @@ public class HelloDragAndDrop extends Application {
     }
 public void Finder(File root, String Term){
 
-RunnableClass t = new RunnableClass(this, root, Term);
+RunnableClass t = new RunnableClass(this, root, Term, SubFolders, ParseThrough, FuzzyMatch, Regex);
 
 /*
     boolean isRunning = true;
@@ -232,12 +237,22 @@ t.start();
 
 
     }
+    public void setText(int on, int of){
+   button.setText("On file of " + on +  "of " + of);
+   pb.setProgress(on/of);
+
+    }
     public void setFoundFiles(List<File> FoundFiles, String Term){
-    this.FoundFiles = FoundFiles;
-    htmler(Term);
+        this.FoundFiles = FoundFiles;
+        System.out.println("rteached");
+
+        htmler(Term);
     }
 
     public void htmler (String Term) {
+        Platform.runLater(() -> {
+                    button.setText("Generating the Html File");
+                });
         String html = "<html lang=‘en’>\n" +
                 "<head>\n" +
                 "\t<meta charset=‘utf-8’ />\n" +
@@ -429,8 +444,12 @@ t.start();
         String namesAdd = "";
 
         for(int j= 0; j<FoundFiles.size(); j++) {
+            String link = FoundFiles.get(j).toString();
+            //link.replaceAll(" ", " ");
+            //link.replace()
+            System.out.println(link);
             namesAdd += "<tr>\n" +
-                    "<td class=\"text-center\"><a href = " + FoundFiles.get(j) + ">" + FoundFiles.get(j) + "</a></td>\n";
+                    "<td class=\"text-center\"><a href = " + link + "\">" + FoundFiles.get(j) + "</a></td>\n";
           /*  for(int r=FoundFiles.size()-1; r>0; r--){
                 namesAdd += "<td class='text-center'> </td>\n";
             }*/
@@ -444,7 +463,7 @@ t.start();
                 "  </body>";
 
 
-        //System.out.println("test");
+        System.out.println("here");
         try {
             FileWriter fw = new FileWriter("Search Term " + Term + ".html", false);
             BufferedWriter bw = new BufferedWriter(fw);
@@ -465,6 +484,12 @@ t.start();
         }
         //System.out.println(html);
 
+        Platform.runLater(() -> {
+            pb.setProgress(0.0);
+            progressBar = 0.0;
+            button.setText("Start!");
+
+    });
     }
 
     public void searchSub(File root, String Term){

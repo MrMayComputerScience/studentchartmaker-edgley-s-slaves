@@ -29,13 +29,13 @@ public class RunnableClass extends Thread{
     CheckBox ParseThrough = new CheckBox("Parse Through");
     CheckBox FuzzyMatch = new CheckBox("Fuzzy Match");
     CheckBox Regex = new CheckBox("Regex");
-    Button button = new Button("Start!");
+    Button button = new Button("dfgdfgfdg!");
     File root;
     String term;
     sample.HelloDragAndDrop stuff;
     public getAllFilesFilter myFilter = new getAllFilesFilter();
-    public RunnableClass(sample.HelloDragAndDrop stuff, File root, String term){
-        this.stuff = stuff; this.root = root; this.term = term;
+    public RunnableClass(sample.HelloDragAndDrop stuff, File root, String term, CheckBox SubFolders, CheckBox ParseThrough, CheckBox FuzzyMatch, CheckBox Regex){
+        this.stuff = stuff; this.root = root; this.term = term; this.SubFolders = SubFolders; this.ParseThrough = ParseThrough; this.FuzzyMatch = FuzzyMatch; this.Regex = Regex;
     }
     public void run()
     {
@@ -45,15 +45,17 @@ public class RunnableClass extends Thread{
         stuff.setFoundFiles(FoundFiles, term);
     }
 public void searchRoot(File root, String Term){
+    //System.out.println("came here");
     //Gets files with Exact Match - Does not go through sub
     if(!SubFolders.isSelected() && !ParseThrough.isSelected() && !FuzzyMatch.isSelected() &&!Regex.isSelected() ) {
         File[] sub = root.listFiles(myFilter);
         for (int i = sub.length - 1; i > -1; i--) {
             final int r = i;
             Platform.runLater(() -> {
-
-                button.setText("On file of " + r +  "of " + sub.length);
+                System.out.println("On file of " + r +  "of " + sub.length);
+                stuff.setText(sub.length - r, sub.length);
             });
+            System.out.println(sub[i].getPath());
             if (sub[i].getName().toString().contains(Term)) {
                 FoundFiles.add(sub[i]);
 
@@ -72,7 +74,7 @@ public void searchRoot(File root, String Term){
                 final int r = i;
                 Platform.runLater(() -> {
 
-                    button.setText("On file of " + r +  "of " + sub.length);
+                    stuff.setText(sub.length - r, sub.length);
                 });
                 if (sub[i].isDirectory())
                     searchRoot(sub[i], Term);
@@ -94,7 +96,7 @@ public void searchRoot(File root, String Term){
             final int r = i;
             Platform.runLater(() -> {
 
-                button.setText("On file of " + r +  "of " + sub.length);
+                stuff.setText(sub.length - r, sub.length);
             });
 
             if (StringUtils.indexOfDifference(new String[]{sub[i].getName().toString(), Term}) < 5) {
@@ -111,15 +113,16 @@ public void searchRoot(File root, String Term){
             for (int i = sub.length - 1; i > -1; i--) {
                 final int r = i;
                 Platform.runLater(() -> {
+                   // System.out.println("On file of " + r +  "of " + sub.length);
+                    stuff.setText(sub.length - r, sub.length);
 
-                    button.setText("On file of " + r +  "of " + sub.length);
                 });
                 if(sub[i].isDirectory())
                     searchRoot(sub[i], Term);
 
-                if (StringUtils.indexOfDifference(new String[]{sub[i].getName().toString(), Term}) < 5) {
+                if (StringUtils.indexOfDifference(new String[]{sub[i].getName().toString(), Term}) < Term.length()/2) {
                     FoundFiles.add(sub[i]);
-                    System.out.println(sub[i].getName().toString());
+                    System.out.println("this"+sub[i].getName().toString());
                 }
             }
     }
@@ -134,7 +137,7 @@ public void searchRoot(File root, String Term){
             final int r = i;
             Platform.runLater(() -> {
 
-                button.setText("On file of " + r +  " of " + sub.length);
+                stuff.setText(sub.length - r, sub.length);
             });
             m=pattern.matcher(sub[i].getName().toString());
 
@@ -157,7 +160,7 @@ public void searchRoot(File root, String Term){
                 final int r = i;
                 Platform.runLater(() -> {
 
-                    button.setText("On file of " + r +  "of " + sub.length);
+                    stuff.setText(sub.length - r, sub.length);
                 });
                 if(sub[i].isDirectory())
                     searchRoot(sub[i], Term);
@@ -180,7 +183,7 @@ public void searchRoot(File root, String Term){
             final int r = i;
             Platform.runLater(() -> {
 
-                button.setText("On file of " + r +  "of " + sub.length);
+                stuff.setText(sub.length - r, sub.length);
             });
             LineIterator it = null;
             if(!sub[i].isDirectory()) {
@@ -216,7 +219,7 @@ public void searchRoot(File root, String Term){
                 final int r = i;
                 Platform.runLater(() -> {
 
-                    button.setText("On file of " + r +  "of " + sub.length);
+                    stuff.setText(sub.length - r, sub.length);
                 });
                 LineIterator it = null;
                 if(sub[i].isDirectory())
@@ -252,7 +255,7 @@ public void searchRoot(File root, String Term){
             final int r = i;
             Platform.runLater(() -> {
 
-                button.setText("On file of " + r +  "of " + sub.length);
+                stuff.setText(sub.length - r, sub.length);
             });
             LineIterator it = null;
             if(!sub[i].isDirectory()) {
@@ -263,7 +266,7 @@ public void searchRoot(File root, String Term){
                         while (it.hasNext()) {
                             String line = it.nextLine();
 
-                            if (StringUtils.indexOfDifference(new String[]{line, Term}) < 5) {
+                            if (StringUtils.indexOfDifference(new String[]{line, Term}) < Term.length()/2) {
                                 FoundFiles.add(sub[i]);
                                 System.out.println(sub[i].getName().toString());
                             }
@@ -287,7 +290,7 @@ public void searchRoot(File root, String Term){
             for (int i = sub.length - 1; i > -1; i--) {final int r = i;
                 Platform.runLater(() -> {
 
-                    button.setText("On file of " + r +  "of " + sub.length);
+                    stuff.setText(sub.length - r, sub.length);
                 });
 
                 LineIterator it = null;
@@ -301,7 +304,7 @@ public void searchRoot(File root, String Term){
                             while (it.hasNext()) {
                                 String line = it.nextLine();
 
-                                if (StringUtils.indexOfDifference(new String[]{line, Term}) < 5) {
+                                if (StringUtils.indexOfDifference(new String[]{line, Term}) < Term.length()/2) {
                                     FoundFiles.add(sub[i]);
                                     System.out.println(sub[i].getName().toString());
                                 }
@@ -328,7 +331,7 @@ public void searchRoot(File root, String Term){
         for (int i = sub.length - 1; i > -1; i--) {final int r = i;
             Platform.runLater(() -> {
 
-                button.setText("On file of " + r +  "of " + sub.length);
+                stuff.setText(sub.length - r, sub.length);
             });
 
             LineIterator it = null;
@@ -369,7 +372,7 @@ public void searchRoot(File root, String Term){
                 final int r = i;
                 Platform.runLater(() -> {
 
-                    button.setText("On file of " + r +  "of " + sub.length);
+                    stuff.setText(sub.length - r, sub.length);
                 });
                 LineIterator it = null;
                 if(sub[i].isDirectory())
